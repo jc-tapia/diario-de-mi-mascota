@@ -1,0 +1,8 @@
+{
+  "name": "diario-de-mi-mascota",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "eeca1164"
+}

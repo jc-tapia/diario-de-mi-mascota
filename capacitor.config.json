@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "diario-de-mi-mascota",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
