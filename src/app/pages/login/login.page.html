@@ -1,0 +1,37 @@
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-button (click)="onReturnTo()" >Atras</ion-button>
+  </ion-buttons>
+</ion-toolbar>
+
+<ion-content>
+
+  <ion-row style="height: 250px"></ion-row>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Ingresar</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+
+      <ion-item fill="outline">
+        <ion-label position="floating">Ingrese Correo</ion-label>
+        <ion-input placeholder="Tu Correo"></ion-input>
+      </ion-item>
+
+      <ion-row style="height: 50px"></ion-row>
+
+      <ion-item fill="outline">
+        <ion-label position="floating">Ingrese Contrasenia</ion-label>
+        <ion-input placeholder="Tu Contrasenia"></ion-input>
+      </ion-item>
+
+      <ion-row style="height: 150px"></ion-row>
+      <ion-button (click)="clickGoToHome()" expand="block">Ingresar</ion-button>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
